@@ -1,22 +1,42 @@
 <!DOCTYPE html>
-<html> 
-    <head>
-        <title> archivo CSS</title>
-        
-    </head>
-    <style>
-        h1{
-            color: rgb(0, 55, 255);
-            font-size: 30px; 
-    }
-    p{
-        color: brown;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    </style>
-    <body>
-<h1> este es un titulo con estilo</h1>
-<p>este es parrafo con estilo</p>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Laboratorio 5 </title>
+	<link rel="stylesheet" type="text/css" href="Estilos.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Formulario Personal</h1>
+		<form>
+			<label> * Nombre </label>
+			<input type="text" name="Nombre" required="">
 
-    </body>
+			<label>Tipo de documento</label>
+			<select id="Pais" name="Pais" required=""> 
+				<option disabled selected> Selecciona tipo de documento</option>  
+				<option>Cedula</option> 
+				<option>Targeta de identidad</option> 
+				</select>
+				  
+			<label>*Cedula</label>
+			<input type="Num" name="" required="">
+
+			<label>telefono</label>
+			<input type="tel" name="telefonp"required>
+
+			<label>*Mensaje</label>
+			<textarea id="Mensaje" name="Mensaje" rows="4"></textarea>
+
+			 
+            <input type="submit" name=""
+            value="Enviar">
+
+		</form>
+
+
+	</div>
+
+</body>
 </html>
