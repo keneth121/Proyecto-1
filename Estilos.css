@@ -17,7 +17,7 @@ input,textarea,select{
 	width: 95%;
 	padding: 2%;
 	margin-bottom: 10px;
-	border: ipx solid #ccc ;
+	border: ipx solid #696262 ;
 	border-radius: 4px;
 
 }
@@ -36,5 +36,5 @@ input[type="submit"]:hover{
 	padding: 20px;
 	background-color: #fff;
 	border-radius: 8px;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 10px rgba(8, 7, 7, 0.1);
 }
